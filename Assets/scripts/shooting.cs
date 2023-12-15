@@ -4,7 +4,7 @@ using System.IO.Compression;
 using System.Security.Cryptography.X509Certificates;
 using UnityEngine;
 
-public class shooting : MonoBehaviour
+public class Shooting : MonoBehaviour
 {
     public Camera cam;
 
@@ -22,7 +22,8 @@ public class shooting : MonoBehaviour
             {
                 if (hit.collider.tag.Equals("NPC"))
                 {
-                    Destroy(hit.collider.gameObject); 
+                    Destroy(hit.collider.gameObject);
+					ScoreManager.instance.AddPoint();
                 }
             }
         }

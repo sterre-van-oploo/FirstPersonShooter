@@ -7,7 +7,7 @@ public class enemyAttack : MonoBehaviour
 {
     private enemyMovement enemymovement;
     private Transform player;
-    public float attackRange = 10f;
+    public float attackRange = 20f;
 
     public Material attackMaterial;
     public Material defaultMaterial;

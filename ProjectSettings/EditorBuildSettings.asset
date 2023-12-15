@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/final-city/menu.unity
+    guid: 6bdea1856471181439e87a34aae676eb
+  - enabled: 1
+    path: Assets/Scenes/final-city/city.unity
+    guid: ee4ce2f181da8cb4a997ff3b645c441d
+  - enabled: 1
+    path: Assets/Scenes/final-city/deathMenu.unity
+    guid: 2a7b594eba6c9a241b8997d7a139dc83
+  - enabled: 1
+    path: Assets/Scenes/final-city/win.unity
+    guid: 7cdd2732a594b154d9e8695c8101fb90
   m_configObjects: {}
